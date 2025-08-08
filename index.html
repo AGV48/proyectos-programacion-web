@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1 id="turno-jugador">Turno del Jugador: 1</h1>
+    <div class="container">
+        <div class="jugador" id="jugador-1">
+            <p>Jugador 1</p>
+            <i class="fa-solid fa-person-rifle"></i>
+            <div class="info-vida">
+                <div class="vida" id="vida-1"></div>
+                <p id="vida-texto-1" class="vida-texto">100 / 100</p>
+            </div>
+        </div>
+    
+        <div class="jugador" id="jugador-2">
+            <p>Jugador 2</p>
+            <i class="fa-solid fa-person-rifle"></i>
+            <div class="info-vida">
+                <div class="vida" id="vida-2"></div>
+                <p id="vida-texto-2" class="vida-texto">100 / 100</p>
+            </div>
+        </div>
+
+    <button class="btn-atacar" onclick="atacar()">Atacar</button>
+    <script src="script.js"></script>
+</body>
+</html>
